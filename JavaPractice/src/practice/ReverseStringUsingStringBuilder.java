@@ -1,6 +1,6 @@
 package practice;
 
-public class ReverseString {
+public class ReverseStringUsingStringBuilder{
 	
 	public static StringBuilder reverseword(String str) {
 		StringBuilder SB = new StringBuilder(str);
