@@ -3,7 +3,6 @@ package practice;
 import java.util.Scanner;
 
 
-
 public class StringComparession {
 	
 	public static String compression(String Sentence) {
@@ -25,6 +24,7 @@ public class StringComparession {
 		return SB.toString();
 		
 	}
+	
 	
 	public static void main(String[]arg) {
 		
