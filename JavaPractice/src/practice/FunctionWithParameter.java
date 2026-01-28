@@ -7,6 +7,10 @@ public class FunctionWithParameter {
 	int sum(int num1,int num2) {
 		return num1+num2;
 	}
+	
+	String name(String name) {
+		return name;
+	}
 
 	public static void main(String[] args) {
 		
@@ -17,8 +21,12 @@ public class FunctionWithParameter {
 		int num1=sc.nextInt();
 		System.out.print("Enter UR Second Number: ");
 		int num2=sc.nextInt();
+		sc.nextLine();
+		System.out.print("Enter UR Name: ");
+		String name=sc.nextLine();
 		
 		System.out.println("Total :"+obj.sum(num1,num2));
+		System.out.println("Your Name: "+obj.name(name));
 
 	}
 
