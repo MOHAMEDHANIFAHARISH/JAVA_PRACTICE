@@ -1,23 +1,24 @@
 package practice;
 
  class brand {
-	public brand(String string) {
-		String name = string;
+	 String name;
+	 brand(String name) {
+		this.name = name;
 		System.out.println(name);
 	}
 }
 
  class model extends brand{
 
-	public model(String string) {
-		super(string);
-		System.out.println(string);
+	 model(String name) {
+		super(name);
+		System.out.println(name);
 		
 	}
 	 
  }
 
-public class Inheritance {
+public class InheritanceWithSuperKeyword {
 
 	public static void main(String[] args) {
 		brand obj=new brand("yamaha");
